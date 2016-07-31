@@ -18,7 +18,3 @@ wrap in a div
 
 
 Extract queries into .babelrc file. Talk about additional presets.
-
-
-// TODO webpack dev server
-// link up css file.

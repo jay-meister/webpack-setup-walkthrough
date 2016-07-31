@@ -6,7 +6,7 @@ class Mother extends React.Component {
     return (
       <div>
         <h1>JSX component</h1>
-        <p>this prints a paragraph</p>
+        <p>thisints a paragraph</p>
       </div>
     )
   }

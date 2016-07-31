@@ -9,7 +9,7 @@ Set up index.html
 npm i -S react react-dom
 Set up index.js
 
-Set up web pack.config.js
+Set up webpack.config.js
 
 run $ webpack index.js
 open bundle
@@ -18,7 +18,7 @@ open index.html in browser
 
 Make change to js file, rebuild, refresh browser.
 
-Add —watch to end of script
+Add —-watch to end of script
 
 
 ** Good tutorial: **

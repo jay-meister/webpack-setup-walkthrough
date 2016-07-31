@@ -1,13 +1,15 @@
-var React = require('react')
-var ReactDOM = require('react-dom')
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-var Mother = React.createClass(
-  { render: function() {
-      return React.createElement("h1", null, "Hello brother component");
-    }
+class Mother extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>JSX component</h1>
+        <p>this prints a paragraph</p>
+      </div>
+    )
   }
-);
+}
 
-var motherElement = React.createElement(Mother)
-
-ReactDOM.render(motherElement, document.getElementById('container'))
+ReactDOM.render(<Mother />, document.getElementById('container'))

@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom')
 
 var Mother = React.createClass(
   { render: function() {
-      return React.createElement("h1", null, "Hello brother component");
+      return React.createElement("h1", null, "Hello Mother component");
     }
   }
 );
